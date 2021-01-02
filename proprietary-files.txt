@@ -185,8 +185,8 @@ product/framework/qcrilhook.jar
 product/framework/QtiTelephonyServicelibrary.jar
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 
-# Telephony (qti-telephony-common)
-#product/framework/qti-telephony-common.jar
+# QTI Telephony- from LA.QSSI.11.0.r1-07800-qssi.0
+system_ext/framework/qti-telephony-common.jar
 
 # WFD
 bin/wfdservice
