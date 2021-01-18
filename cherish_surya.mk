@@ -6,8 +6,8 @@
 
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
-# Inherit some common SuperiorOS stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+# Inherit some common cherish stuff.
+$(call inherit-product, vendor/cherish/config/common.mk)
 
 # GApps
 TARGET_GAPPS_ARCH := arm64
@@ -15,11 +15,8 @@ TARGET_GAPPS_ARCH := arm64
 # Boot animation resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Face unlock
-TARGET_USES_FACE_UNLOCK := true
-
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := superior_surya
+PRODUCT_NAME := cherish_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X3
