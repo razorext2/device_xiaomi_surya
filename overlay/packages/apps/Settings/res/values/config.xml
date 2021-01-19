@@ -20,6 +20,6 @@
          3 = right side
     -->
     <integer name="config_fingerprintSensorLocation">3</integer>
-   <!--  <string name="cherish_maintainer">rzrxt</string>
-   -->
+    <string name="cherish_maintainer">rzrxt</string>
+
 </resources>
