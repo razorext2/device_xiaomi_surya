@@ -21,6 +21,9 @@ TARGET_GAPPS_ARCH := arm64
 # Boot animation resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Face Unlock
+TARGET_USES_FACE_UNLOCK := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cherish_surya
 PRODUCT_DEVICE := surya
@@ -32,3 +35,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_PROPERTY_OVERRIDES += \
    ro.build.fingerprint=google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
+   ro.cherish.maintainer=rzrzxt
