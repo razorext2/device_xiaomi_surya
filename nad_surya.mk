@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
 # Inherit some common Nusantara stuff.
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 $(call inherit-product-if-exists, packages/apps/NusantaraParts/nadproject.mk)
 NAD_BUILD_TYPE := UNOFFICIAL
 USE_PIXEL_CHARGING := TRUE
