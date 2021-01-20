@@ -59,3 +59,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.enable_hwc_vds=1 \
     persist.debug.wfd.enable=1 \
     persist.sys.wfd.virtual=0
+
+# BPF
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.kernel.ebpf.supported=true

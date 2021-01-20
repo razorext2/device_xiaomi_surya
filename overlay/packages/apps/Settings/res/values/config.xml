@@ -20,6 +20,18 @@
          3 = right side
     -->
     <integer name="config_fingerprintSensorLocation">3</integer>
-    <string name="cherish_maintainer">rzrxt</string>
+    
+    <!-- Battery Health -->
+    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_full_design</string>
+    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full</string>
+    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
+    <bool name="config_supportBatteryHealth">true</bool>
 
+    <!-- Smarth Charging -->
+    <bool name="config_smartChargingAvailable">true</bool>
+    <integer name="config_smartChargingBatteryLevel">80</integer>
+    <integer name="config_smartChargingBatteryResumeLevel">60</integer>
+    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/charging_enabled</string>
+    <string name="config_SmartChargingSupspendValue" translatable="false">0</string>
+    <string name="config_SmartChargingResumeValue" translatable="false">1</string>
 </resources>
