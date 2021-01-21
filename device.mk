@@ -48,9 +48,9 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor
 
 # Bluetooth
-PRODUCT_PACKAGES += \
-    BluetoothQti \
-    libbtconfigstore
+# PRODUCT_PACKAGES += \
+#     BluetoothQti \
+#     libbtconfigstore
 
 # Camera
 PRODUCT_PACKAGES += \
